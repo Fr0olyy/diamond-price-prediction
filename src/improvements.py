@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
 
-MAX_REASONABLE_PRICE = 25_000
+MAX_REASONABLE_PRICE = 20_000
 
 
 def remove_zero_dimensions(df: pd.DataFrame) -> pd.DataFrame:
