@@ -1,0 +1,27 @@
+.DS_Store
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+jupyter_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local/editor files
+.vscode/
+.idea/
+
+# Generated project artifacts
+data/processed/
+models/
+reports/figures/*
+!reports/figures/.gitkeep
